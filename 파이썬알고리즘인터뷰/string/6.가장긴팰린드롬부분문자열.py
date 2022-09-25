@@ -14,5 +14,4 @@ class Solution:
         for i in range(len(s)):
             max_pal = max(max_pal, expand(i, i + 1),
                           expand(i, i + 2), key=len) # 홀수개, 짝수개 따로 계산한다
-
         return max_pal

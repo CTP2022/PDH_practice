@@ -10,7 +10,7 @@ class Solution:
         return s == s[::-1]
 
         # 투 포인터 풀이
-#         new_s = ''.join([string.lower() for string in s if string.isalnum()])
+#         new_s = ''.join([string.lower() for string in s if string.isalnum()]
 
 #         left, right = 0, len(new_s) - 1
 #         while left < right:
